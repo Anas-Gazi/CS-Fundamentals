@@ -8,13 +8,16 @@ int main(){
     scanf("%d", &arr[i]);
   }
 
+  int flag =1;
   for(int i=0, j=n-1; i<j; i++, j--){
     if(arr[i] != arr[j]){
       printf("NO");
+      flag =0;
       break;
     }
   }
-  printf("YES");
+  if(flag == 1)
+      printf("YES");
 
   return 0;
 }
