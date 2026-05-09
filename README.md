@@ -4,7 +4,7 @@
 </div>
 <br/>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=A855F7&center=true&vCenter=true&width=550&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%91%8B;CSE+Student+%F0%9F%8E%93+%7C+Problem+Solver+%F0%9F%A7%A9;Always+coding%2C+always+growing+%F0%9F%9A%80;Open+to+collaborate+%26+learn+%F0%9F%92%AB" alt="Typing SVG" />
+  <img width="1000" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=A855F7&center=true&vCenter=true&width=550&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%91%8B;CSE+Student+%F0%9F%8E%93+%7C+Problem+Solver+%F0%9F%A7%A9;Always+coding%2C+always+growing+%F0%9F%9A%80;Open+to+collaborate+%26+learn+%F0%9F%92%AB" alt="Typing SVG" />
 </p>
 
 🙋‍♂️ About Me
