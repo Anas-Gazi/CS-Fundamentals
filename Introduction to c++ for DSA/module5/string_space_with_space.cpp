@@ -11,6 +11,7 @@ int main()
     getline(cin, s);
 
 
+
     cout<<a << endl;
     cout<< s;
 
