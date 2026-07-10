@@ -9,6 +9,8 @@ int main()
 
     // v.pop_back();
 
+    v.erase(v.begin()+ 2);
+
     v.insert(v.begin() +2, 100);
 
     for( int x : v){
