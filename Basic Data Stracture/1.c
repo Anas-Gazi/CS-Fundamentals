@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main(){
 
-  int n,a;
-  scanf("%d",&n);
-
+int a[4] = {12,13,14,15};
+vector<int> v(a, a+4);
   return 0;
 }
