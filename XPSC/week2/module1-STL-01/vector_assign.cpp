@@ -10,7 +10,7 @@ int main()
     cin >>n;
     // vector<int> v(n,5);
     // for(int i=0; i<n; i++){
-    //   cout << v[i] << " ";
+    //   cout << v[i] << " " ;
     // }
 
     vector<int>v;

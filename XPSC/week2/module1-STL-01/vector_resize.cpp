@@ -17,8 +17,7 @@ int main()
     for(int i=0; i<v.size(); i++){
       cout << v[i] << " ";
     }
-
-
-
      return 0;
 }
+
+// Resize a vector to a new size and initialize the new elements.
