@@ -35,3 +35,7 @@ int main()
     
      return 0;
 }
+
+// This code reads an integer `n` and a vector of integers `v` of size `n`. It simulates a game where two players, Sereja and Dima, take turns picking the maximum value from either end of the vector. The first player (Sereja) starts first, and they alternate turns. The code keeps track of the total scores for both players and outputs their final scores after all elements have been picked.
+
+//problem link: https://codeforces.com/problemset/problem/381/A
