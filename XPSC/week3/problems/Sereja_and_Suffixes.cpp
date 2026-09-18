@@ -7,7 +7,7 @@ int main()
     cin.tie(nullptr);
 
     int n, m;
-    cin >> n >> m;
+    cin >> n >>  m;
     int pos;
     vector<int> a(n+1), cnt(n+1);
 

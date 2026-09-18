@@ -40,7 +40,7 @@ int main()
         mn++;
       }
       else if (a[r] == mx)
-      {
+      { 
         r--;
         mx--;
       }

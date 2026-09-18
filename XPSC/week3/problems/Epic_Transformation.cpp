@@ -25,7 +25,7 @@ int main()
           break;
         }
         int x,y;
-        x= pq.top();
+        x= pq.top() ;
         pq.pop();
         y= pq.top();
         pq.pop();

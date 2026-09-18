@@ -6,7 +6,7 @@ using namespace std;
 void solve() {
     int n;
     cin >> n;
-    cout << 2 << "\n";
+    cout << 2 << "\n" ;
     int current_large = n;
     for (int i = n - 1; i >= 1; --i) {
         cout << current_large << " " << i << "\n";

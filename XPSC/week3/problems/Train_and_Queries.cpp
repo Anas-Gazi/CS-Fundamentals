@@ -15,7 +15,7 @@ int main()
       map<int,set<int>> mp;
       for(int i=1; i<=n; i++){
         int x; cin >> x;
-        mp[x].insert(i);
+        mp[x].insert(i) ;
       }
 
       for(int i=1; i<=m; i++){
