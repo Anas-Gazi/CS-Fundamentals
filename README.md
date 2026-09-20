@@ -1,43 +1,54 @@
 # CS Fundamentals
 
-A personal learning repository documenting my journey through core computer 
-science fundamentals — from C programming basics to data structures and 
-competitive problem solving.
+A personal learning repository that documents my journey through **C programming → C++ for DSA → Data Structures → Competitive Programming**.
 
-## 📂 Structure
+This repo is meant to be useful both for **myself** (quick revision + contest templates) and for **beginners** who want structured practice material with explanations.
 
-| Folder | Contents |
-|---|---|
-| `Introduction to Programming/Cprogramming` | C basics: variables, control flow, loops, arrays, strings, functions, pointers, recursion, patterns, 2D arrays (Module 1–19) |
-| `Introduction to c++ for DSA` | C++ fundamentals: dynamic memory, OOP (classes/objects/constructors), strings, vectors, sorting (module 1–8) |
-| `Basic Data Stracture` | Time complexity analysis, vectors, linked lists (insert/reverse/print), stack implementation (week 1–4) |
+> 🚧 **Work in progress** — I am gradually adding descriptions, problem links, complexity analysis, and better organization so the code becomes actually useful.
+
+---
+
+## 📂 Current Structure
+
+| Folder | What you'll find |
+|--------|------------------|
+| `Introduction to Programming/Cprogramming` | C basics (Modules 1–19): variables, control flow, loops, arrays, strings, functions, pointers, recursion, patterns, 2D arrays |
+| `Introduction to c++ for DSA` | C++ fundamentals (Modules 1–8): dynamic memory, OOP basics, strings, vectors, sorting |
+| `Basic Data Stracture` | Time complexity, vectors, linked lists (insert/reverse/print), stack implementation |
 | `Problem-Solving_p1` | General problem-solving practice |
-| `XPSC/week1` | Contest problem solutions |
-| `abc` | Additional competitive programming solutions (Codeforces/AtCoder style) |
+| `XPSC` | Contest problem solutions (weekly) |
+| `Codechef Contest` | CodeChef contest solutions |
+| `Extra Solve` / `Extra` / `final` / `abc` | Additional practice & competitive programming solutions |
 
-## 🎯 Purpose
+> **Note:** Folder names will be cleaned up and reorganized soon (typos fixed, clearer categories, better separation between learning modules and contest solutions).
 
-This repo tracks my progress as I build a strong foundation in:
-- C and C++ programming
-- Core data structures (arrays, vectors, linked lists, stacks)
-- Algorithmic complexity (Big-O analysis)
-- Competitive programming / problem solving
+---
+
+## 🎯 Goals of this Repository
+
+- Build a strong foundation in C and C++
+- Master core data structures and understand time/space complexity
+- Practice competitive programming (Codeforces, AtCoder, CodeChef style)
+- Keep solutions + short explanations so I (and others) can revise later
+- Create reusable templates and patterns for faster contest coding
+
+---
 
 ## 🛠️ Prerequisites
 
 - A C/C++ compiler (`gcc` and `g++`)
-- Command-line interface access
-- Basic familiarity with programming concepts
+- Basic terminal / command-line knowledge
+- Willingness to read code and experiment
 
-## 🚀 Running the Code
+---
 
-This repo is just standalone source files — no build system needed. Clone it 
-and compile whichever file you want directly:
+## 🚀 How to Run the Code
+
+This is a collection of standalone source files — no build system required.
 
 ```bash
 git clone https://github.com/Anas-Gazi/CS-Fundamentals.git
 cd CS-Fundamentals
-```
 
 **Compile and run a C file:**
 ```bash
@@ -52,6 +63,15 @@ g++ -std=c++17 "Introduction to c++ for DSA/module1/ascii.cpp" -o ascii
 ```
 
 > 💡 Many C++ files use `<bits/stdc++.h>` — compile with `-std=c++17` or higher.
+
+#Suggested Learning Path
+
+1. C Programming → Go through the modules in order
+2. C++ for DSA → Focus on STL (vector, string, etc.) and OOP basics
+3. Basic Data Structures → Understand time complexity + implement linked list & stack
+4. Problem Solving + Contests → Start solving problems and keep short notes
+
+I will gradually add short explanations, problem links, and complexity analysis to make revision easier.
 
 ## 🛠️ Tools
 
