@@ -8,9 +8,16 @@ int main()
 
     int a,b;
     cin >> a>> b;
-  int x= (a-b);
-  if(x%2 ==0) cout << x/2;
-  else cout << -1;
+  // 1st process
+  // int x= (a-b);
+  // if(x%2 ==0) cout << x/2;
+  // else cout << -1;
+
+  int y= a+b;
+  if(y%2 ==0){
+    int half = y/2;
+    cout <<a- half << endl;
+  } else cout << -1;
 
    
     

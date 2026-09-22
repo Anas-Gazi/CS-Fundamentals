@@ -9,17 +9,11 @@ int main()
     int t;
     cin >> t;
     while(t--){
-      int n,k;
-      cin >> n>> k;
-
-    //   if(k<=n){
-    //     cout <<0<< endl;
-    //   } else{
-    //     cout << 2* (k-n)<< endl;
-    //   }
+      int n,a,b,c; cin >>n >> a >> b >>c;
+      int mn= min(a,min(b,c));
+      cout << n- mn << endl;
       
-
-    cout << max(2*(k-n) , 0) << endl;
     }
+    
      return 0;
 }

@@ -10,12 +10,20 @@ int main()
     while(t--){
       int n;
     cin >> n;
-    vector<int> a(n);
-
-    for (int i = 0; i < n; i++)
+   int a[n+1];
+    for (int i = 1; i < n+1; i++)
     {
       cin >> a[i];
     }
+    sort( a+1, a+n+1);
+    int pref[n+1];
+    pref[1]= a[1];
+    for(int i=2; i<n; i++){
+      pref[i]= pref[i-1] + a[i];
     }
+    for(int i=1; i<=n; i++)
+
+
+  }
      return 0;
 }
