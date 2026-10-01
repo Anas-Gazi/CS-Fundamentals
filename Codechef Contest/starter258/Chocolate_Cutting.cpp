@@ -11,7 +11,7 @@ int main()
       int n, m;
       cin >>n >> m;
       if(n%2==0  || m%2==0) cout << "Yes" << endl;
-      else cout << "No" << endl;
+      else cout << "No" << endl ;
     }
     
      return 0;
