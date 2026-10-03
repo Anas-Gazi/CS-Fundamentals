@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-    // Write your code here
 long long int n; cin >> n;
 long long int a[n];
 
@@ -14,13 +13,13 @@ for(int i=0; i<n;i++){
     cin >> a[i];
 }
 
-vector< long long int> b(n);
-b[0] = a[0];
+vector< long long int>pre(n);
+pre[0] = a[0];
 for(int i=1; i<n ;i++){
-    b[i]= a[i] + b[i-1];
+   pre[i]= a[i] +pre[i-1];
 }
 for(int i=n-1; i>=0; i--){
-    cout << b[i] << " ";
+    cout <<pre[i] << " ";
 }
     return 0;
 }
