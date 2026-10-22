@@ -8,24 +8,39 @@ int main()
 
     int t;
     cin >> t;
-    while(t--){
-      int n;
-      cin >> n;
-      vector<int>v(n);
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> v(n);
+        for (int i = 0; i < n; i++)
+        {
+            cin >> v[i];
+        }
+        int l = 0, r = n - 1;
+        int suml = 0, sumr = 0, cnt = 0;
 
-      int cnt =0;
-      for(int i=0; i<n; i++){
-        cin >> v[i];
-      }
-     int posl = v[0];
-     int posr =v[n-1];
-     while(posl != posr){
-      posl++;
-      posr --;
-      cnt ++;
-     }
-     cout << cnt << endl;
+        while (l <= r)
+        {
+            if (suml <= sumr)
+            {
+                suml += v[l];
+                l++;
+            }
+            else
+            {
+                sumr += v[r];
+                r--;
+            }
+
+            if (suml == sumr)
+            {
+                cnt = max(cnt, l + (n - 1 - r));
+            }
+        }
+
+        cout << cnt << endl;
     }
-    
-     return 0;
+
+    return 0;
 }
