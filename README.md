@@ -1,4 +1,5 @@
 # CS Fundamentals
+ [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Anas-Gazi/badge.svg)](https://hub.xerj.org/contributors/Anas-Gazi)
 
 A personal learning repository that documents my journey through **C programming → C++ for DSA → Data Structures → Competitive Programming**.
 
