@@ -1,5 +1,6 @@
 # CS Fundamentals
- [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Anas-Gazi/badge.svg)](https://hub.xerj.org/contributors/Anas-Gazi)
+
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Anas-Gazi/badge.svg)](https://hub.xerj.org/contributors/Anas-Gazi)
 
 A personal learning repository that documents my journey through **C programming → C++ for DSA → Data Structures → Competitive Programming**.
 
@@ -9,19 +10,21 @@ This repo is meant to be useful both for **myself** (quick revision + contest te
 
 ---
 
-## 📂 Current Structure
+## 📂 Repository Structure
 
-| Folder | What you'll find |
-|--------|------------------|
-| `Introduction to Programming/Cprogramming` | C basics (Modules 1–19): variables, control flow, loops, arrays, strings, functions, pointers, recursion, patterns, 2D arrays |
-| `Introduction to c++ for DSA` | C++ fundamentals (Modules 1–8): dynamic memory, OOP basics, strings, vectors, sorting |
-| `Basic Data Stracture` | Time complexity, vectors, linked lists (insert/reverse/print), stack implementation |
-| `Problem-Solving_p1` | General problem-solving practice |
-| `XPSC` | Contest problem solutions (weekly) |
-| `Codechef Contest` | CodeChef contest solutions |
-| `Extra Solve` / `Extra` / `final` / `abc` | Additional practice & competitive programming solutions |
+| Folder                            | Description                                                                                      |
+| --------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `A-Introduction to Programming`   | Core programming fundamentals                                                                    |
+| ├── `Cprogramming`                | C basics: variables, loops, arrays, strings, functions, pointers, recursion, patterns, 2D arrays |
+| ├── `Introduction to c++ for DSA` | C++ fundamentals for DSA: dynamic memory, OOP, strings, vectors, sorting                         |
+| └── `Basic Data Stracture`        | Time complexity, vectors, linked lists, stack implementation                                     |
+| `Codechef Contest`                | CodeChef Starter contest solutions                                                               |
+| `Codeforces Contest`              | Codeforces contest solutions                                                                     |
+| `XPSC`                            | XPSC weekly solutions                                                                            |
+| `DCC`                             | Academic codes and lab reports                                                                   |
+| `Extra-Practice`                  | Extra problem-solving practice                                                                   |
 
-> **Note:** Folder names will be cleaned up and reorganized soon (typos fixed, clearer categories, better separation between learning modules and contest solutions).
+> Folder names will be cleaned up over time for better consistency.
 
 ---
 
@@ -47,7 +50,7 @@ This repo is meant to be useful both for **myself** (quick revision + contest te
 
 This is a collection of standalone source files — no build system required.
 
-```bash
+````bash
 git clone https://github.com/Anas-Gazi/CS-Fundamentals.git
 cd CS-Fundamentals
 
@@ -55,9 +58,10 @@ cd CS-Fundamentals
 ```bash
 gcc "Introduction to Programming/Cprogramming/Module2/arithmetic.c" -o arithmetic
 ./arithmetic
-```
+````
 
 **Compile and run a C++ file:**
+
 ```bash
 g++ -std=c++17 "Introduction to c++ for DSA/module1/ascii.cpp" -o ascii
 ./ascii
