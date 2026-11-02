@@ -12,17 +12,17 @@ This repo is meant to be useful both for **myself** (quick revision + contest te
 
 ## 📂 Repository Structure
 
-| Folder                            | Description                                                                                      |
-| --------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `A-Introduction to Programming`   | Core programming fundamentals                                                                    |
-| ├── `Cprogramming`                | C basics: variables, loops, arrays, strings, functions, pointers, recursion, patterns, 2D arrays |
-| ├── `Introduction to c++ for DSA` | C++ fundamentals for DSA: dynamic memory, OOP, strings, vectors, sorting                         |
-| └── `Basic Data Stracture`        | Time complexity, vectors, linked lists, stack implementation                                     |
-| `Codechef Contest`                | CodeChef Starter contest solutions                                                               |
-| `Codeforces Contest`              | Codeforces contest solutions                                                                     |
-| `XPSC`                            | XPSC weekly solutions                                                                            |
-| `DCC`                             | Academic codes and lab reports                                                                   |
-| `Extra-Practice`                  | Extra problem-solving practice                                                                   |
+| Folder                          | Description                                                                                      |
+| ------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `A-Introduction to Programming` | Core programming fundamentals                                                                    |
+| ├── `C-Programming`             | C basics: variables, loops, arrays, strings, functions, pointers, recursion, patterns, 2D arrays |
+| ├── `CPP-for-DSA`               | C++ fundamentals for DSA: dynamic memory, OOP, strings, vectors, sorting                         |
+| └── `Basic Data Stracture`      | Time complexity, vectors, linked lists, stack implementation                                     |
+| `Codechef Contest`              | CodeChef Starter contest solutions                                                               |
+| `Codeforces Contest`            | Codeforces contest solutions                                                                     |
+| `XPSC`                          | XPSC weekly solutions                                                                            |
+| `DCC`                           | Academic codes and lab reports                                                                   |
+| `Extra-Practice`                | Extra problem-solving practice                                                                   |
 
 > Folder names will be cleaned up over time for better consistency.
 
@@ -89,4 +89,4 @@ I will gradually add short explanations, problem links, and complexity analysis 
 
 ## 📄 License
 
-Personal educational repository — feel free to browse for reference.
+This repository is licensed under the MIT License.
