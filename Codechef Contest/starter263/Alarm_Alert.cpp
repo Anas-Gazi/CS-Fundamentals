@@ -1,0 +1,36 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        long long x, y, d;
+        cin >> x >> y >> d;
+
+        long long a = x, b = y;
+
+        while (true)
+        {
+            if (abs(a - b) <= d)
+            {
+                cout << max(a, b) << '\n';
+                break;
+            }
+
+            if (a < b)
+                a += x;
+            else
+                b += y;
+        }
+    }
+
+    return 0;
+}
